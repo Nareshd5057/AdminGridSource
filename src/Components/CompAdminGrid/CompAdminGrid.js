@@ -48,7 +48,7 @@ export default class CompAdminGrid extends Component {
                 this.filterData();
               }}
             >
-              <option value="">All</option>
+              <option value="">Select PROJECT NAME</option>
               {this.props.adminStore.projectArr.map((item, index) => {
                 return (
                   <option key={item.value + index} value={item.value}>
@@ -68,7 +68,7 @@ export default class CompAdminGrid extends Component {
                 this.filterData();
               }}
             >
-              <option value="">All</option>
+              <option value="">Select TASK TYPE</option>
               {this.props.adminStore.taskArr.map((item, index) => {
                 return (
                   <option key={item.value + index} value={item.value}>
