@@ -1,0 +1,345 @@
+@import url('Normalize.css');
+@import url('https://cdn.jsdelivr.net/npm/segoe-fonts@1.0.1/segoe-fonts.min.css');
+
+html,body {
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  background-color: #e8e9ee;
+}
+header {
+  background: #fff;
+  padding: 5px 10px;
+  border-bottom: 1px solid #c8c8c8;
+  height: 60px;
+  color: #777676;
+}
+.logoSec {
+	display: inline-block;
+    color: #609d9e;
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    top: 10px;
+}
+.userSec {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  top: 5px;
+  position: relative;
+}
+.fontSm {
+  font-size: 12px;
+  color: #b1b1b1;
+  font-size: 13px;
+}
+.btn {
+  border-radius: 3px;
+  line-height: 12px;
+  height: 40px;
+  font-size: 13px;
+}
+.navigationBtn {
+  background: #fff;
+  padding: 10px;
+}
+.navigationBtn .btn {
+  background: #fff;
+  border: 0;
+  margin-right: 10px;
+  color: #404040;
+}
+.navigationBtn .btn:last-child {
+  margin-right: 0;
+}
+.navigationBtn .activeNav {
+  background-color: #609d9e;
+  color: #fff;
+  border: 1px solid #73c0c1;
+}
+.navigationBtn .activeNav a {
+  color: #fff;
+}
+.btn a {
+  color: #404040;
+  text-decoration: none;
+}
+.pageMain{
+  padding: 20px 10px;
+}
+.panel {
+  /* height: 400px; */
+  background: #fff;
+}
+.panel .panelHead {
+  padding: 10px 15px;
+  border-bottom: 1px solid #d6d5d5;
+  font-weight: 600;
+}
+.panelBody {
+  padding: 15px 40px;
+}
+[class^="wid-"] {
+  float: left;
+  padding: 10px;
+}
+.wid-sm-3{
+  width: 33.3%;
+}
+.label{
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #717171;
+}
+.formInput .formControl {
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  font-size: 13px;
+  padding: 6px 8px;
+}
+.wid-sm-2{
+  width: 50%;
+}
+.btnSave {
+	background-color: #0053a1;
+    color: #fff;
+    padding: 10px 25px;
+    border: 1px solid #063662;
+    height: 35px;	
+}
+.saveSec {
+	display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.navigationBtn a{
+	display: inline-block;
+    padding: 12px;
+    text-decoration: none;
+}
+.adminGrid h4 {
+	text-align: center;
+}
+.showEntries label:first-child {
+	margin-right: 15px;
+}
+.showEntries input {
+	width: 50px;
+    margin-right: 15px;
+}
+.pad15 {
+	padding: 10px 15px;
+}
+.filterSection {
+	padding: 10px 15px;
+    margin: 0 -15px;
+    border-bottom: 1px solid #d6d5d5;
+    margin-bottom: 12px;
+    padding-bottom: 15px;
+}
+.filterSection .showEntries {
+	display: inline-block;
+}
+.prjFilter ,.taskType {
+	display: inline-block;
+	margin-left: 40px;
+	width: 20%;
+}
+.prjFilter select, .taskType select {
+	height: 40px;
+}
+.formControl {
+	width: 100%;
+}
+.gridSearch {
+	display: inline-block;
+	float: right;
+}
+.gridSearch label {
+	margin-right: 10px;
+}
+.gridSearch input {
+	height: 35px;
+}
+input,select {
+	border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    font-size: 13px;
+    padding: 6px 8px;
+}
+form input,form select {
+	height: 45px;
+}
+.mainGrid th,.mainGrid td {
+	border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    border-right: none;
+    border-left: none;
+}
+.mainGrid th:first-child,.mainGrid td:first-child {
+	border-left: 1px solid #dddddd;
+}
+.mainGrid th:last-child,.mainGrid td:last-child {
+	border-right: 1px solid #dddddd;
+}
+th {
+	text-transform: uppercase;
+	font-size: 13px;
+}
+.mainGrid th {
+    color: #919191;
+    font-weight: 600;
+}
+.mainGrid td {
+    color: #7e7e7e;
+    font-weight: 600;
+}
+.paginationSec{
+    display: inline-block;
+    width: 100%;
+}
+
+/* #mar{
+  margin-left: 3%;
+  margin-right: 3%;
+} */
+#mari{
+  margin-left: 3%;
+  margin-right: 3%;
+  display: inline-block;
+	position: relative;
+	color: #888;
+	text-shadow: 0 1px 0 rgba(255,255,255, 0.8);
+	text-decoration: none;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 700;
+	font-family: helvetica, arial, sans-serif;
+	border-radius: 4px;
+}
+
+.button {
+	display: inline-block;
+	position: relative;
+	color: #888;
+	text-shadow: 0 1px 0 rgba(255,255,255, 0.8);
+	text-decoration: none;
+	text-align: center;
+	padding: 8px 12px;
+	font-size: 12px;
+	font-weight: 700;
+	font-family: helvetica, arial, sans-serif;
+	border-radius: 4px;
+}
+
+.button:hover {
+	color: #555;
+}
+
+.buttonSELECTED {
+	display: inline-block;
+	position: relative;
+	color: #f7f7f7;
+	text-shadow: 0 1px 0 rgba(255,255,255, 0.8);
+	text-decoration: none;
+	text-align: center;
+	padding: 8px 12px;
+	font-size: 12px;
+	font-weight: 700;
+	font-family: helvetica, arial, sans-serif;
+	border-radius: 4px;
+	border: 1px solid #5ba7ff;
+	background: #206cc4;
+}
+
+.mar {
+	text-decoration: none;
+    font-size: 22px;
+    position: relative;
+    top: 2px;
+    margin-right: 10px;
+    color: #bfbfbf;
+    font-weight: 700;
+}
+.prev {
+	    margin-right: 10px;
+    color: #bfbfbf;
+}
+.next {
+	margin-left: 10px;
+	color: #bfbfbf;
+}
+.mar1 {
+	text-decoration: none;
+    font-size: 22px;
+    position: relative;
+    top: 2px;
+    margin-left: 10px;
+    color: #bfbfbf;
+    font-weight: 700;
+}
+.pagination {
+	width: 50%;
+    float: right;
+    text-align: right;
+}
+.entryShow {
+	width: 50%;
+    float: left;
+    margin-top: 8px;
+	color: #919191;
+}
+.mainPagination {
+	padding: 10px 15px;
+    margin: 0 -15px;
+    border-top: 1px solid #d6d5d5;
+    margin-bottom: 12px;
+    padding-bottom: 15px;
+}
+.profile {
+	float: right;
+    width: 40px;
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+}
+.text-center {
+	text-align: center !important;
+}
+.error {
+	color: #e30101;
+    font-size: 12px;
+    font-weight: 600;
+}
+#app > div > div.pageMain > div > div.panelBody > div > form > div:nth-child(8) > div.formInput > input {
+	    padding-top: 12px !important;
+}
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+	margin-top: 10px;
+}
+.alert-primary {
+	color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
